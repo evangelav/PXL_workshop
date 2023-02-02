@@ -7,3 +7,5 @@ class WordSerializer(serializers.ModelSerializer) :
         model = Word
         fields = ['id', 'word']
         read_only_fields = ['id']
+
+    
