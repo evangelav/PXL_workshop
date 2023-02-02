@@ -60,20 +60,17 @@ Usually once a Django project is created there is a _db.sqlite3_ that is create 
 To activated the database here are the steps to follow :
 1) With the virtual environment activated in the root folder of your project you can run the following command : <br />
  ```python manage.py makemigrations myapp```<br />
- > _myapp represents the name of your app (the folder containing ```models.py , views.py, admin.py, etc..```
-With that models present in ```models.py``` are created in the database.
+ > _myapp represents the name of your app (the folder containing ```models.py , views.py, admin.py, etc..```). With that models present in ```models.py``` are created in the database._
 
 #### Django admin
-Django admin is a tool that enables you to add, edit and delete records in our database. 
-<br />
-Once our app is running with ```python manage.py runserver``` we can access this tool can be accessed it in your browser with http://localhost:8000/admin/ and that will lead you to a login page.
+Django admin is a tool that enables you to add, edit and delete records in our database. Once our app is running with ```python manage.py runserver``` we can access this tool can be accessed it in your browser with http://localhost:8000/admin/ and that will lead you to a login page.
 To create the credentials to log in you need to create a superuser, which is a user account that has control over everything on the site.
 <br />
 Go back to the terminal and type : ```python manage.py createsuperuser``` <br />
 Prompted will be a form that asks you a _username, email address and password_. 
 Once this information is entered you can run the project again, go to http://localhost:8000/admin/ and log in with your credetials.
 
-**In this console you can than add elements by clicking the button _+Add_ highlighted in the picture below.
+**In this console you can than add elements by clicking the button _+Add_ highlighted in the picture below.**
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/22933040/216307249-274447f8-f04f-4083-b2a9-62d1b3dbe7e1.png">
 
 
