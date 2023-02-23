@@ -41,11 +41,10 @@ We will create a virtual environment, that will allow us to install **Django** i
     b) Linux or OS X : ```source nameofvenv/bin/activate```
 
 ### Installing Django
-With the virtual environment activated you can now install Django
-1) Go to the root folder of your project and create a new file named _requirements.txt_ 
-2) In the file write the line : ```Django~=3.2.10``` 
-> we give the version of Django that we are going to use in the project
-3) Once that is done, go back to the open terminal and run : <br />
+With the virtual environment activated you can now install Django (and other libraries needed in the project)
+1) In the root folder of your project you will find a file named _requirements.txt_
+> it contains the Django version as well the ones from the other libraries used in this project
+2) Run the following command to  : <br />
     a) Windows : ```python -m pip install -r requirements.txt``` <br />
     b) Linux or OS X : ```pip install -r requirements.txt```
 
